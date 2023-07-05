@@ -12,6 +12,9 @@ examples: $(foreach x, coverletter cv resume, $x.pdf)
 resume.pdf: $(EXAMPLES_DIR)/taylor_harrison_resume.tex $(RESUME_SRCS)
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
 
+resume2.pdf: $(EXAMPLES_DIR)/taylor_harrison_resume_2.tex $(RESUME_SRCS)
+	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+
 cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_SRCS)
 	$(CC) -output-directory=$(EXAMPLES_DIR) $<
 
