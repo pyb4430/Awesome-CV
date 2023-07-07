@@ -17,31 +17,40 @@
     {Nov 2016 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Work directly with clients to build and maintain custom full stack web applications deployed on AWS resources.}
+        \item {Work directly with clients to design, build, and maintain successful custom full stack web applications deployed on AWS resources.}
         \item {Mentor and manage a junior developer, reviewing pull requests and ensuring thorough testing and best practices.}
         \item {Updated stack from services run on VMs to containers deployed in a multi-AZ Docker Swarm cluster.}
         \item {Prioritize testing with pytest and Jest. Set up CI/CD pipelines with Ansible, Github Actions, and TeamCity.}
-        \item {Designed and built an application for Botanacor (acquired in 2022) for dynamically generating and customizing cannabis quality control lab result PDF's with ReportLab.}
-        \item {Designed and built a HIPAA compliant application to collect and visualize a state's success outcomes within a federally funded program. Included designing a secure application architecture in AWS, maintaining audit trails around sensitive database records, and dynamic generation of Excel files with custom data validation.}
-        \item {Designed and built \href{https://fdi2.com}{fdi2.com} for the Florida Dysphagia Institute, a platform for healthcare providers to register for MDTP certification courses. Used Eventzilla API for event ticketing, Thinkific API for administering certification exams, Stripe for ticket checkout, and Wagtail CMS.}
-        \item {Designed and built the Callisto backend, a FastAPI server and Celery distributed task queue for provisioning AWS EC2 servers, allowing the Callisto Mac App to run Jupyter notebooks in the cloud. Functions include creating/starting/stopping EC2 instances, connecting via SSH to bootstrap them, monitoring them for availability, and tracking usage throughout the month to bill users via Stripe.}
-        \item {Designed and built the Callisto Jupyter D1 library, a FastAPI server using the jupyter\_client library to control Jupyter kernels and maintain Jupyter notebook state in a central fashion, sending updates to connected clients using websockets.}
-        \item {Designed and built a Flask API for VitalFlo to collect spirometry data and other metrics from their iOS app and aggregate air quality data from IoT devices and third party API's.}
+        \item {Projects
+          \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+          \setlength{\parskip}{0pt}
+            \item {A full stack application for Botanacor (acquired in 2022) for dynamically generating and customizing cannabis quality control lab result PDF's with ReportLab. Worked with Botanacor's dev, lab, and marketing teams to design an API for collection of raw lab results and to translate test result report designs into modular templates. The new results portal consolidates lab test results in a single database and significantly reduces time spent by Botanacor staff accomodating customer report customization requests by offering customers a WYSIWYG browser editor for test result PDFs.}
+            \item {A HIPAA compliant application to collect and visualize a state's success outcomes within a federally funded program. Included designing a secure application architecture in AWS, maintaining audit trails around sensitive database records, and dynamic generation of Excel files with custom data validation. The new portal allows organizations across the state to upload case details and performance metrics to a central location, where site admins can validate them, request changes, and approve them for inclusion in Chart.js figures on the site's dashboard.}
+            \item {\href{https://fdi2.com}{fdi2.com} for the Florida Dysphagia Institute, a platform for healthcare providers to register for MDTP certification courses. Used Eventzilla API for event ticketing, Thinkific API for administering certification exams, Stripe for ticket checkout, and Wagtail CMS. The new website's tight integration with third party services reduces busy work, removes opportunity for errors, and creates better visibility into the customer base.}
+            \item {Callisto Mothership, a full stack application responsible for handling subscription management for the Callisto Mac App as well as provisioning EC2 instances for running Jupyter notebooks in the cloud. Functions include creating/starting/stopping EC2 instances, connecting via SSH to bootstrap them, monitoring them for availability, and tracking usage throughout the month to bill users via Stripe.}
+            \item {Callisto Jupyter D1 library, a FastAPI server using the jupyter\_client library to control Jupyter kernels and maintain Jupyter notebook state in a central fashion, sending updates to connected clients using websockets. The Callisto Mac App interfaces with the Jupyter D1 API to run jupyter notebooks locally and in the cloud.}
+            \item {An API for VitalFlo to collect spirometry data and other metrics from their iOS app and aggregate air quality data from IoT devices and third party API's. This Flask app gathers data in a central database for use by Vitalflo's data science team and allows data management with Flask Admin.}
+          \end{itemize}}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
     {Lead Android Developer} % Job title
-    {Oak City Labs} % Organization
-    {Apex, NC} % Location
+    {} % Organization
+    {} % Location
     {Nov 2016 - Jun 2020} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Worked directly with clients to build custom native Android apps.}
-        \item {Designed and built the CurEat Android app for finding, curating, and sharing local restaurants.}
-        \item {Designed and built an Android app for a Fortune 500 agricultural company that displays custom satellite imagery tiles with the Mapbox SDK. Includes support for background downloading and caching of tiles for later offline use.}
-        \item {Designed and built an Android app for a medical school that provides resources and an interactive public forum to improve mental health and wellness of faculty, staff, and students.}
+        \item {Worked directly with clients to build custom native Android apps using Kotlin and Java.}
+        \item {Projects
+          \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+          \setlength{\parskip}{0pt}
+            \item {CurEat Android app for finding, curating, and sharing local restaurants. This 20+ screen app allows users to find restaurants across the US (with Google Maps integration), create and share lists of their favorites, and follow their friends, local chefs, and food personalities to see their curated lists.}
+            \item {Android app for a Fortune 500 agricultural company that displays custom satellite imagery tiles with the Mapbox SDK. Includes support for background downloading and caching of tiles for later offline use, enabling farmers to view map data on their devices while traversing their fields.}
+            \item {Android app for a nationally recognized teaching hospital that provides resources and an interactive public forum to improve mental health and wellness of faculty, staff, and students. The app allows users to issue public congratulations and gift each other virtual currency that can be exchanged for rewards.}
+            \item {Android library for a vehicle anti-theft device company that communicates with their proprietary device via MQTT. The library provides a convenient API for their mobile app to access device metrics and change its state.}
+          \end{itemize}}
       \end{cvitems}
     }
 
@@ -53,7 +62,7 @@
     {Feb 2016 - Sep 2016} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Maintained and updated the WedPics Android app.}
+        \item {Maintained and updated the WedPics Android app, an app for taking and editing wedding photos and storing them in a central location.}
         \item {Implemented in-app purchases with Google Play, updated UI with new designs, debugged features, and helped implement new image editing features with OpenGL.}
       \end{cvitems}
     }
